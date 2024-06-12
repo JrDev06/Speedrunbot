@@ -1,0 +1,22 @@
+{
+  "name": "minecraft-speedrun-bot",
+  "version": "1.0.0",
+  "description": "Minecraft speedrun bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "console": "^0.11.0",
+    "mineflayer": "^3.7.0",
+    "mineflayer-collectblock": "^1.2.1",
+    "mineflayer-pathfinder": "^4.5.0",
+    "prismarine-recipe": "^3.2.0",
+    "vec3": "^3.0.0",
+    "stream": "^0.0.2",
+    "./PortalBuildWaterCast": "1.0.0"
+  }
+}
