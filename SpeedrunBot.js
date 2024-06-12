@@ -15,9 +15,9 @@ const GoalBlock = goals.GoalBlock
 class SpeedrunBot{
     constructor(){
         this.bot = mineflayer.createBot({
-            host: 'localhost', // optional
-            port: 50456,
-            username: 'Speedrunner',
+            host: 'RiseSMPMC.aternos.me', // optional
+            port: 46779,
+            username: 'RiseSMPSpeedrunnerBOT',
             version: false     // false corresponds to auto version detection (that's the default), put for example "1.8.8" if you need a specific version
         })
 
